@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
 
   svg {
     fill: ${props => (props.isHome ? '#fff' : '#000')};
-    width: 40px;
+    width: 28px;
   }
 `
 

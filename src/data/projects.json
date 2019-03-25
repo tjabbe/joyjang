@@ -1,7 +1,10 @@
 [
   {
-    "name": "The Boiler Room",
+    "projectPath": "/project/boiler-room",
+    "tilePath": "/images/boilerroom/boiler-room-tile.jpg",
+    "client": "Boiler Room",
     "title": "Boiler Room: A Celebration of the DJ",
+    "shortTitle": "A Celebration of the DJ",
     "year": "2019",
     "workType": "Styleframes and Illustration",
     "collaborators": [],
@@ -9,8 +12,11 @@
     "description": "This is a hypothetical logo reveal for Boiler Room. Boiler Room is a global online music broadcasting platform commissioning and streaming live music sessions around the world. Different from other DJ sets, there is a sense of intimacy as the attendees are positioned behind the decks in a bedroom DJ style set-up and the camera is centered on the DJ. The DJ is in control of setting the mood and tone of the party."
   },
   {
-    "name": "The Journey",
+    "projectPath": "/project/the-journey",
+    "tilePath": "/images/thejourney/the-journey-tile.jpg",
+    "client": "The Journey",
     "title": "The Journey: The White Butterfly",
+    "shortTitle": "The White Butterfly",
     "year": "2019",
     "workType": "Styleframes and Illustration",
     "collaborators": [],
@@ -18,26 +24,11 @@
     "description": "A white butterfly symbolizes the soul of a departed loved one. This is a nostalgic journey of a boy named Tom, who sets up a picnic at a spot that he once frequently went with his SO, Lois. There, Tom interacts with the “soul of Lois”, who is composed of butterflies. As Tom puts in the earphones on the figure, we are taken back to the time when Tom last shared music with Lois at the hospital bed– as they used to enjoy listening to music together through shared earphones."
   },
   {
-    "name": "Trance",
-    "title": "Trance: Perception of Reality",
-    "year": "2018",
-    "workType": "Styleframes, Live Action, Photo Compositing",
-    "collaborators": [],
-    "thanks": ["Ming Tai"],
-    "description": "Trance is a film about an art heist that goes wrong. During the heist, the main character, Simon, suffers a head trauma and wakes up with no memory of the location of the stolen painting. As Simon searches for answers, he discovers the truth about himself and his reality. This main title focuses on Simon’s false perception of reality throughout the movie. Using a zoetrope as a framing device, it becomes a tool of distinguishing between reality and illusion. As the viewers, we see that the zoetrope is an illusion but for Simon, the world inside the zoetrope feels real."
-  },
-  {
-    "name": "Tarantino Festival 2018",
-    "title": "The New Beverly Cinema: Tarantino Festival 2018",
-    "year": "2018",
-    "workType": "Typography, Posters, Campaign",
-    "collaborators": [],
-    "thanks": ["Dale Forando"],
-    "description": "The iconic imagery in each poster highlight the influence of QT's films— Pulp Fiction, Django Unchained and Deathproof. With the idea of creating a brand identity for the event, 'TARANTINO FESTIVAL' is manipulated and set at a diagonal, creating a quirky and unconventional logo. The color palette of red, yellow and black represent Tarantino's frequent use of yellow and red in his films and the sans-serif typeface, Akzidenz Grotesk, was used to keep it modern and bold."
-  },
-  {
-    "name": "My Damn Mind",
+    "projectPath": "/project/my-damn-mind",
+    "tilePath": "/images/mydamnmind/mind-tile.jpg",
+    "client": "This American Life",
     "title": "This American Life: My Damn Mind",
+    "shortTitle": "My Damn Mind",
     "year": "2017",
     "workType": "Styleframes, Photo Compositing, Live Action",
     "collaborators": [],
@@ -45,8 +36,11 @@
     "description": "This is a hypothetical main title sequence for the podcast This American Life, episode My Damn Mind. The idea is that though our minds are powerful and resilient, at times, our minds can be just as fragile as an eggshell. Once broken, it will never be perfect, but it doesn't mean it's useless. The pieces seem fragile in the first few frames but as it comes together, there is a redefined sense of strength."
   },
   {
-    "name": "The Underground Museum",
-    "title": "The Underground Museum: The Artist's museum",
+    "projectPath": "/project/the-underground-museum",
+    "tilePath": "/images/theundergroundmuseum/museum-tile.png",
+    "client": "The Underground Museum",
+    "title": "The Underground Museum: The Artist's Museum",
+    "shortTitle": "The Artist's Museum",
     "year": "2018",
     "workType": "Storyboard, Live Action, 3D/VFX",
     "collaborators": ["Chris H. Yoon"],
