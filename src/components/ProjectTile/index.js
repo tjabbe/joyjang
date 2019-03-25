@@ -2,6 +2,7 @@ import React from 'react'
 
 import {
   Tile,
+  TileBackground,
   Client,
   ProjectName,
   Type,
@@ -10,8 +11,9 @@ import {
 } from './elements'
 
 const ProjectTile = ({ data }) => (
-  <Tile background={data.tilePath}>
+  <Tile>
     <ProjectLink to={data.projectPath} />
+    <TileBackground background={data.tilePath} />
     <TopContainer>
       <Client>{data.client}</Client>
       <ProjectName>{data.shortTitle}</ProjectName>

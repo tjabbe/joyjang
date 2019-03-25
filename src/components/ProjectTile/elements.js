@@ -1,11 +1,21 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-const Tile = styled.div`
+const TileBackground = styled.div`
   background-image: url(${props => props.background});
   background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: transform 0.8s;
+  width: 100%;
+`
+
+const Tile = styled.div`
   color: white;
   height: 300px;
+  overflow: hidden;
   position: relative;
   width: 100%;
 
@@ -20,6 +30,12 @@ const Tile = styled.div`
 
   @media screen and (min-width: 1025px) {
     height: 400px;
+  }
+
+  &:hover {
+    ${TileBackground} {
+      transform: scale(1.04) rotate(0.5deg);
+    }
   }
 `
 
@@ -57,4 +73,12 @@ const ProjectLink = styled(Link)`
   z-index: 10;
 `
 
-export { Tile, Client, ProjectName, Type, TopContainer, ProjectLink }
+export {
+  Tile,
+  TileBackground,
+  Client,
+  ProjectName,
+  Type,
+  TopContainer,
+  ProjectLink,
+}
