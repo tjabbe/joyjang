@@ -3,7 +3,11 @@ import styled from 'styled-components'
 const Image = styled.img`
   display: block;
   margin: 0 auto 60px;
-  width: 400px;
+  width: 70%;
+
+  @media screen and (min-width: 550px) {
+    width: 400px;
+  }
 `
 
 const TextContainer = styled.div`
@@ -14,6 +18,9 @@ const TextContainer = styled.div`
   text-align: center;
 
   p {
+    margin: auto;
+    width: 85%;
+
     &:not(:last-child) {
       margin-bottom: 20px;
     }
