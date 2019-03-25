@@ -1,0 +1,23 @@
+import styled from 'styled-components'
+import { Link } from 'gatsby'
+
+const HeaderContainer = styled.header`
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+
+  svg {
+    fill: ${props => (props.isHome ? '#fff' : '#000')};
+    width: 40px;
+  }
+`
+
+const HeaderLink = styled(Link)`
+  color: ${props => (props.isHome ? '#fff' : '#000')};
+  font-family: 'Apercu';
+  font-size: 20px;
+  text-decoration: none;
+`
+
+export { HeaderContainer, HeaderLink }
