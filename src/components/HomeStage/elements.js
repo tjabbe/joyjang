@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const Container = styled.div`
   align-items: center;
@@ -10,6 +10,7 @@ const Container = styled.div`
 
 const TextContainer = styled.div`
   margin-top: -176px;
+  padding: 0 40px;
 `
 
 const Text = styled.p`
@@ -17,6 +18,11 @@ const Text = styled.p`
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  ${props =>
+    props.maxWidth &&
+    css`
+      max-width: 850px;
+    `}
 `
 
 const ScrollArrow = styled.span`

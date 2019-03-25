@@ -5,9 +5,18 @@ const Tile = styled.div`
   background-image: url(${props => props.background});
   background-size: cover;
   color: white;
-  height: 400px;
+  height: 300px;
   position: relative;
-  width: 50%;
+  width: 100%;
+
+  @media screen and (min-width: 769px) {
+    height: 250px;
+    width: 50%;
+  }
+
+  @media screen and (min-width: 1025px) {
+    height: 400px;
+  }
 `
 
 const Client = styled.span`

@@ -7,7 +7,11 @@ const SocialContainer = styled.ul`
 
 const SocialLink = styled.li`
   &:not(:last-child) {
-    margin-right: 80px;
+    margin-right: 40px;
+
+    @media screen and (min-width: 769px) {
+      margin-right: 80px;
+    }
   }
 
   a {
