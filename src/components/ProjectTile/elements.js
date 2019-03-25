@@ -34,7 +34,7 @@ const Tile = styled.div`
 
   &:hover {
     ${TileBackground} {
-      transform: scale(1.04) rotate(0.5deg);
+      transform: scale(1.04);
     }
   }
 `
