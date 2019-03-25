@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  margin-bottom: 120px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 120px;
+  }
 
   > span {
     display: block;
@@ -27,7 +31,15 @@ const MultipleContainer = styled.div`
 
 const SmallImage = styled.img`
   margin-bottom: 20px;
-  width: 32%;
+  width: 100%;
+
+  @media screen and (min-width: 500px) {
+    width: 49%;
+  }
+
+  @media screen and (min-width: 769px) {
+    width: 32%;
+  }
 `
 
 export { Container, Image, MultipleContainer, SmallImage }

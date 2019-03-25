@@ -8,15 +8,33 @@ const Container = styled.div`
   span {
     display: block;
   }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
 `
 
 const LeftContainer = styled.div`
-  max-width: 240px;
+  max-width: 280px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 240px;
+  }
 `
 
 const MiddleContainer = styled.div`
-  margin: 0 30px;
-  max-width: 700px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 700px;
+    margin: 0 30px;
+  }
 `
 
 const RightContainer = styled.div`

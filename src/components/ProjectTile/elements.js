@@ -54,6 +54,7 @@ const ProjectLink = styled(Link)`
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 10;
 `
 
 export { Tile, Client, ProjectName, Type, TopContainer, ProjectLink }

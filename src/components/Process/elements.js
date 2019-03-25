@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  margin-bottom: 120px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 120px;
+  }
 
   > span {
     display: block;
@@ -13,11 +17,15 @@ const Container = styled.div`
   }
 
   .slider-control-centerleft {
-    left: -50px !important;
+    @media screen and (min-width: 768px) {
+      left: -50px !important;
+    }
   }
 
   .slider-control-centerright {
-    right: -50px !important;
+    @media screen and (min-width: 768px) {
+      right: -50px !important;
+    }
   }
 `
 
@@ -28,11 +36,17 @@ const Image = styled.img`
 const SliderButton = styled.button`
   background: 0;
   border: 0;
-  color: black;
+  color: white;
   cursor: pointer;
-  font-size: 70px;
+  font-size: 50px;
   outline: 0;
   padding: 0;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    color: black;
+    font-size: 70px;
+  }
 `
 
 export { Container, Image, SliderButton }
