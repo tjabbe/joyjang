@@ -37,5 +37,44 @@
         ]
       }
     ]
+  },
+  {
+    "projectPath": "/project/the-journey",
+    "tilePath": "/images/thejourney/the-journey-1.jpg",
+    "stagePicture": "/images/thejourney/the-journey-1.jpg",
+    "client": "The Journey",
+    "title": "The Journey: The White Butterfly",
+    "shortTitle": "The White Butterfly",
+    "year": "2019",
+    "workType": "Styleframes and Illustration",
+    "collaborators": [],
+    "thanks": ["Ara Devejian"],
+    "description": "A white butterfly symbolizes the soul of a departed loved one. This is a nostalgic journey of a boy named Tom, who sets up a picnic at a spot that he once frequently went with his SO, Lois. There, Tom interacts with the “soul of Lois”, who is composed of butterflies. As Tom puts in the earphones on the figure, we are taken back to the time when Tom last shared music with Lois at the hospital bed– as they used to enjoy listening to music together through shared earphones.",
+    "content": [
+      {
+        "module": "Styleframes",
+        "assets": [
+          {
+            "path": "/images/thejourney/the-journey-1.jpg"
+          },
+          {
+            "path": "/images/thejourney/the-journey-2.jpg"
+          },
+          {
+            "path": "/images/thejourney/the-journey-3.jpg"
+          }
+        ]
+      },
+      {
+        "module": "Process",
+        "assets": [
+          { "path": "/images/thejourney/the-journey-process-1.jpg" },
+          { "path": "/images/thejourney/the-journey-process-2.jpg" },
+          { "path": "/images/thejourney/the-journey-process-3.jpg" },
+          { "path": "/images/thejourney/the-journey-process-4.jpg" },
+          { "path": "/images/thejourney/the-journey-process-5.jpg" }
+        ]
+      }
+    ]
   }
 ]

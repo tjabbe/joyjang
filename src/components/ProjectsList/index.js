@@ -7,19 +7,15 @@ import { TilesContainer } from './elements'
 const ProjectsList = () => (
   <StaticQuery
     query={projectsQuery}
-    render={data => <TilesContainer>{getProjects(data)}</TilesContainer>}
+    render={data => (
+      <TilesContainer>
+        {data.allProjectItemsJson.edges.map(project => (
+          <ProjectTile data={project.node} key={project.node.client} />
+        ))}
+      </TilesContainer>
+    )}
   />
 )
-
-const getProjects = data => {
-  const projects = []
-
-  data.allProjectItemsJson.edges.forEach(project =>
-    projects.push(<ProjectTile data={project.node} key={project.node.client} />)
-  )
-
-  return projects
-}
 
 const projectsQuery = graphql`
   query ProjectsQuery {
