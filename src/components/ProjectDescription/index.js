@@ -28,15 +28,28 @@ const ProjectDescription = ({ data }) => {
       </MiddleContainer>
 
       <RightContainer>
-        {collaborators.length > 0 && <div>Collaborators</div>}
-        <div>
-          <SmallTitle>Special Thanks To</SmallTitle>
-          <NamesContainer>
-            {thanks.map(thank => (
-              <li key={thank}>{thank}</li>
-            ))}
-          </NamesContainer>
-        </div>
+        {collaborators.length > 0 && (
+          <div style={{ marginBottom: 20 }}>
+            <SmallTitle>
+              {collaborators.length > 1 ? 'Collaborators' : 'Collaborator'}
+            </SmallTitle>
+            <NamesContainer>
+              {collaborators.map(collaborator => (
+                <li key={collaborator}>{collaborator}</li>
+              ))}
+            </NamesContainer>
+          </div>
+        )}
+        {thanks.length > 0 && (
+          <div>
+            <SmallTitle>Special Thanks To</SmallTitle>
+            <NamesContainer>
+              {thanks.map(thank => (
+                <li key={thank}>{thank}</li>
+              ))}
+            </NamesContainer>
+          </div>
+        )}
       </RightContainer>
     </Container>
   )
