@@ -126,5 +126,78 @@
         "assets": [{ "path": "/images/mydamnmind/mind-process-1.jpg" }]
       }
     ]
+  },
+  {
+    "projectPath": "/project/the-underground-museum",
+    "tilePath": "/images/theundergroundmuseum/museum-3.jpg",
+    "stagePicture": "/images/theundergroundmuseum/museum-3.jpg",
+    "client": "The Underground Museum",
+    "title": "The Underground Museum: The Artist's Museum",
+    "shortTitle": "The Artist's Museum",
+    "year": "2018",
+    "workType": "Storyboard, Live Action, 3D/VFX",
+    "collaborators": ["Chris H. Yoon"],
+    "thanks": ["Ming Tai"],
+    "description": "This is a hypothetical promotional video for The Underground Museum. It is a museum that is deemed the “artist’s museum” by MOCA having been started by LA-based artist named Noah Davis. Noah wanted to create an alternative space that promoted cutting-edge work in a location that didn’t have cultural outlets within walking distance. We wanted to show the collection of ideas that the museum is based on. The ideas are history, culture, art and sanctuary.",
+    "content": [
+      {
+        "module": "Vimeo",
+        "videoId": "249714924"
+      },
+      {
+        "module": "Styleframes",
+        "layout": "multiple",
+        "assets": [
+          {
+            "path": "/images/theundergroundmuseum/museum-1.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-2.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-3.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-4.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-5.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-6.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-7.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-8.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-9.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-10.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-11.jpg"
+          },
+          {
+            "path": "/images/theundergroundmuseum/museum-12.jpg"
+          }
+        ]
+      },
+      {
+        "module": "Process",
+        "assets": [
+          { "path": "/images/theundergroundmuseum/museum-process-1.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-2.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-3.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-4.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-5.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-6.jpg" },
+          { "path": "/images/theundergroundmuseum/museum-process-7.jpg" }
+        ]
+      }
+    ]
   }
 ]
