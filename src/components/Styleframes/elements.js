@@ -17,4 +17,17 @@ const Image = styled.img`
   }
 `
 
-export { Container, Image }
+const MultipleContainer = styled.div`
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -20px;
+`
+
+const SmallImage = styled.img`
+  margin-bottom: 20px;
+  width: 32%;
+`
+
+export { Container, Image, MultipleContainer, SmallImage }

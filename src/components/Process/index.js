@@ -16,19 +16,24 @@ class Process extends Component {
     return (
       <Container>
         <span>{module}</span>
-        <Carousel
-          enableKeyboardControls={true}
-          renderCenterLeftControls={({ previousSlide }) => (
-            <SliderButton onClick={previousSlide}>{`<`}</SliderButton>
-          )}
-          renderCenterRightControls={({ nextSlide }) => (
-            <SliderButton onClick={nextSlide}>{`>`}</SliderButton>
-          )}
-        >
-          {assets.map(asset => (
-            <Image src={asset.path} key={asset.path} />
-          ))}
-        </Carousel>
+        {assets.length > 1 && (
+          <Carousel
+            enableKeyboardControls={true}
+            renderCenterLeftControls={({ previousSlide }) => (
+              <SliderButton onClick={previousSlide}>{`<`}</SliderButton>
+            )}
+            renderCenterRightControls={({ nextSlide }) => (
+              <SliderButton onClick={nextSlide}>{`>`}</SliderButton>
+            )}
+          >
+            {assets.map(asset => (
+              <Image src={asset.path} key={asset.path} />
+            ))}
+          </Carousel>
+        )}
+        {assets.length === 1 && (
+          <Image src={assets[0].path} key={assets[0].path} />
+        )}
       </Container>
     )
   }
