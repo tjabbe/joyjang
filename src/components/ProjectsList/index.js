@@ -14,7 +14,7 @@ const ProjectsList = () => (
 const getProjects = data => {
   const projects = []
 
-  data.allProjectsJson.edges.forEach(project =>
+  data.allProjectItemsJson.edges.forEach(project =>
     projects.push(<ProjectTile data={project.node} key={project.node.client} />)
   )
 
@@ -23,7 +23,7 @@ const getProjects = data => {
 
 const projectsQuery = graphql`
   query ProjectsQuery {
-    allProjectsJson {
+    allProjectItemsJson {
       edges {
         node {
           projectPath

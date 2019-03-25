@@ -1,5 +1,5 @@
 const path = require('path')
-const projects = require('./src/data/Projects.json')
+const projects = require('./src/data/ProjectItems.json')
 
 exports.createPages = async ({ actions: { createPage } }) => {
   projects.forEach(project => {
