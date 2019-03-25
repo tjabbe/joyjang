@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 
 const FooterContainer = styled.footer`
-  align-items: center;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 60px 80px;
 `
 
-export { FooterContainer }
+const Inner = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1600px;
+  padding: 60px 80px;
+  width: 90%;
+`
+
+export { FooterContainer, Inner }

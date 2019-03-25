@@ -1,7 +1,8 @@
 [
   {
     "projectPath": "/project/boiler-room",
-    "tilePath": "/images/boilerroom/boiler-room-tile.jpg",
+    "tilePath": "/images/boilerroom/boiler-room-1.jpg",
+    "stagePicture": "/images/boilerroom/boiler-room-2.jpg",
     "client": "Boiler Room",
     "title": "Boiler Room: A Celebration of the DJ",
     "shortTitle": "A Celebration of the DJ",
@@ -9,11 +10,37 @@
     "workType": "Styleframes and Illustration",
     "collaborators": [],
     "thanks": ["Ara Devejian"],
-    "description": "This is a hypothetical logo reveal for Boiler Room. Boiler Room is a global online music broadcasting platform commissioning and streaming live music sessions around the world. Different from other DJ sets, there is a sense of intimacy as the attendees are positioned behind the decks in a bedroom DJ style set-up and the camera is centered on the DJ. The DJ is in control of setting the mood and tone of the party."
+    "description": "This is a hypothetical logo reveal for Boiler Room. Boiler Room is a global online music broadcasting platform commissioning and streaming live music sessions around the world. Different from other DJ sets, there is a sense of intimacy as the attendees are positioned behind the decks in a bedroom DJ style set-up and the camera is centered on the DJ. The DJ is in control of setting the mood and tone of the party.",
+    "content": [
+      {
+        "module": "Styleframes",
+        "assets": [
+          {
+            "path": "/images/boilerroom/boiler-room-2.jpg"
+          },
+          {
+            "path": "/images/boilerroom/boiler-room-1.jpg"
+          },
+          {
+            "path": "/images/boilerroom/boiler-room-3.jpg"
+          }
+        ]
+      },
+      {
+        "module": "Process",
+        "assets": [
+          { "path": "/images/boilerroom/boiler-room-process-1.jpg" },
+          { "path": "/images/boilerroom/boiler-room-process-2.jpg" },
+          { "path": "/images/boilerroom/boiler-room-process-3.jpg" },
+          { "path": "/images/boilerroom/boiler-room-process-4.jpg" },
+          { "path": "/images/boilerroom/boiler-room-process-5.jpg" }
+        ]
+      }
+    ]
   },
   {
     "projectPath": "/project/the-journey",
-    "tilePath": "/images/thejourney/the-journey-tile.jpg",
+    "tilePath": "/images/thejourney/the-journey-1.jpg",
     "client": "The Journey",
     "title": "The Journey: The White Butterfly",
     "shortTitle": "The White Butterfly",
@@ -25,7 +52,7 @@
   },
   {
     "projectPath": "/project/my-damn-mind",
-    "tilePath": "/images/mydamnmind/mind-tile.jpg",
+    "tilePath": "/images/mydamnmind/mind-1.jpg",
     "client": "This American Life",
     "title": "This American Life: My Damn Mind",
     "shortTitle": "My Damn Mind",
@@ -37,7 +64,7 @@
   },
   {
     "projectPath": "/project/the-underground-museum",
-    "tilePath": "/images/theundergroundmuseum/museum-tile.png",
+    "tilePath": "/images/theundergroundmuseum/museum-1.jpg",
     "client": "The Underground Museum",
     "title": "The Underground Museum: The Artist's Museum",
     "shortTitle": "The Artist's Museum",

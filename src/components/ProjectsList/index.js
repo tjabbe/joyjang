@@ -15,7 +15,7 @@ const getProjects = data => {
   const projects = []
 
   data.allProjectsJson.edges.forEach(project =>
-    projects.push(<ProjectTile data={project.node} />)
+    projects.push(<ProjectTile data={project.node} key={project.node.client} />)
   )
 
   return projects
