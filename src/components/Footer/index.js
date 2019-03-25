@@ -1,13 +1,15 @@
 import React from 'react'
 
 import Social from '../Social'
-import { FooterContainer, Inner } from './elements'
+import { FooterContainer, Inner, SocialContainer } from './elements'
 
 const Footer = () => (
   <FooterContainer>
     <Inner>
       <span>© {new Date().getFullYear()}</span>
-      <Social />
+      <SocialContainer>
+        <Social />
+      </SocialContainer>
       <span>By Joy Jang</span>
     </Inner>
   </FooterContainer>

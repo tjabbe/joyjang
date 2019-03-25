@@ -7,12 +7,16 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   margin: auto;
   max-width: 1600px;
-  padding: 60px 80px;
+  padding: 50px 40px;
   width: 90%;
 
   svg {
     fill: ${props => (props.isHome ? '#fff' : '#000')};
     width: 28px;
+  }
+
+  @media screen and (min-width: 769px) {
+    padding: 60px 80px;
   }
 `
 

@@ -9,6 +9,10 @@ const Tile = styled.div`
   position: relative;
   width: 100%;
 
+  @media screen and (max-width: 550px) {
+    height: 200px;
+  }
+
   @media screen and (min-width: 769px) {
     height: 250px;
     width: 50%;

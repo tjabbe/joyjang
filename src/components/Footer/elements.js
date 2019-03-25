@@ -13,9 +13,19 @@ const Inner = styled.div`
   padding: 50px 40px;
   width: 90%;
 
+  @media screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+
   @media screen and (min-width: 769px) {
     padding: 60px 80px;
   }
 `
 
-export { FooterContainer, Inner }
+const SocialContainer = styled.div`
+  @media screen and (max-width: 550px) {
+    margin: 30px 0;
+  }
+`
+
+export { FooterContainer, Inner, SocialContainer }
