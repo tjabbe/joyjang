@@ -38,7 +38,7 @@ const SliderButton = styled.button`
   border: 0;
   color: white;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 30px;
   outline: 0;
   padding: 0;
   position: relative;

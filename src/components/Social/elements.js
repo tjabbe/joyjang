@@ -17,6 +17,13 @@ const SocialLink = styled.li`
   a {
     color: #000;
     text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  &:hover {
+    a {
+      color: #4f2fc5;
+    }
   }
 `
 

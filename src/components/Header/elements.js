@@ -12,7 +12,12 @@ const HeaderContainer = styled.header`
 
   svg {
     fill: ${props => (props.isHome ? '#fff' : '#000')};
+    transition: fill 0.2s;
     width: 28px;
+
+    &:hover {
+      fill: #4f2fc5;
+    }
   }
 
   @media screen and (min-width: 769px) {
@@ -25,6 +30,11 @@ const HeaderLink = styled(Link)`
   font-family: 'Apercu';
   font-size: 20px;
   text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #4f2fc5;
+  }
 `
 
 export { HeaderContainer, HeaderLink }
