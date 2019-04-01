@@ -42,7 +42,7 @@ const ProjectDescription = ({ data }) => {
         )}
         {thanks.length > 0 && (
           <div>
-            <SmallTitle>Special Thanks To</SmallTitle>
+            <SmallTitle>Special Thanks</SmallTitle>
             <NamesContainer>
               {thanks.map(thank => (
                 <li key={thank}>{thank}</li>

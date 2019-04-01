@@ -17,7 +17,7 @@ const Image = styled.img`
   width: 100%;
 
   &:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 `
 
