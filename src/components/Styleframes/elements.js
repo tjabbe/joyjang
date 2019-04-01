@@ -29,6 +29,10 @@ const MultipleContainer = styled.div`
   margin-bottom: -20px;
 `
 
+const OneContainer = styled.div`
+  margin-top: 60px;
+`
+
 const SmallImage = styled.img`
   margin-bottom: 20px;
   width: 100%;
@@ -42,4 +46,4 @@ const SmallImage = styled.img`
   }
 `
 
-export { Container, Image, MultipleContainer, SmallImage }
+export { Container, Image, MultipleContainer, SmallImage, OneContainer }
