@@ -9,11 +9,11 @@ import {
 } from './elements'
 
 const Styleframes = ({ data }) => {
-  const { module, assets } = data
+  const { moduleTitle, assets } = data
 
   return (
     <Container>
-      <span>{module}</span>
+      <span>{moduleTitle}</span>
       <MultipleContainer>
         {assets.map(asset => (
           <SmallImage src={asset.path} key={asset.path} />

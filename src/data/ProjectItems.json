@@ -41,7 +41,7 @@
   {
     "projectPath": "/project/adam",
     "tilePath": "/images/adam/museum-3.jpg",
-    "stagePicture": "/images/adam/museum-3.jpg",
+    "stagePicture": "/images/adam/adam-header.jpg",
     "client": "TestLab Berlin 2018",
     "title": "TestLab Berlin 2018: Posthumanism",
     "shortTitle": "Posthumanism",
@@ -62,7 +62,16 @@
       },
       {
         "module": "Styleframes",
-        "moduleTitle": "Stylesframes",
+        "moduleTitle": "Stylesframes (from presentation in the Brandenburger Tor Musem)",
+        "assets": [
+          {
+            "path": "/images/adam/adam-1.jpg"
+          }
+        ]
+      },
+      {
+        "module": "Styleframes",
+        "moduleTitle": "Exhibition at ArtCenter College of Design",
         "assets": [
           {
             "path": "/images/adam/adam-1.jpg"
@@ -71,7 +80,17 @@
       },
       {
         "module": "Process",
-        "assets": [{ "path": "/images/adam/adam-process-1.jpg" }]
+        "assets": [
+          {
+            "path": "/images/adam/adam-process-1.jpg"
+          },
+          {
+            "path": "/images/adam/adam-process-2.jpg"
+          },
+          {
+            "path": "/images/adam/adam-process-3.jpg"
+          }
+        ]
       }
     ]
   },
