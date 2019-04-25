@@ -14,11 +14,13 @@ const Styleframes = ({ data }) => {
   return (
     <Container>
       <span>{moduleTitle}</span>
-      <MultipleContainer>
-        {assets.map(asset => (
-          <SmallImage src={asset.path} key={asset.path} />
-        ))}
-      </MultipleContainer>
+      {assets.length > 1 && (
+        <MultipleContainer>
+          {assets.map(asset => (
+            <SmallImage src={asset.path} key={asset.path} />
+          ))}
+        </MultipleContainer>
+      )}
       <OneContainer>
         {assets.map(asset => (
           <Image src={asset.path} key={asset.path} />
