@@ -14,7 +14,6 @@
     "content": [
       {
         "module": "Styleframes",
-        "layout": "one",
         "assets": [
           {
             "path": "/images/boilerroom/boiler-room-1.jpg"
@@ -40,6 +39,43 @@
     ]
   },
   {
+    "projectPath": "/project/adam",
+    "tilePath": "/images/adam/museum-3.jpg",
+    "stagePicture": "/images/adam/museum-3.jpg",
+    "client": "TestLab Berlin 2018",
+    "title": "TestLab Berlin 2018: Posthumanism",
+    "shortTitle": "Posthumanism",
+    "year": "2018",
+    "workType": "Branding, Graphic Identity, Design Fiction Scenario, Exhibition Design, Animation",
+    "collaborators": ["Alison Hochi", "Cris Gonzalez", "Hanna Ali"],
+    "thanks": [
+      "Rudy Manning",
+      "Brad Bartlett",
+      "Nik Hafermaas",
+      "Bruce Sterling"
+    ],
+    "description": "This project was a 12-week intensive studio course in Berlin. We were split up into groups and given the concept of Posthumanism with the topics of Intelligence, Genetics, and Robotics. Set in Berlin for the year 2033, we were to conceptualize products or services that were based on our research. Thus, ADAM was created through our team, Robotics.",
+    "content": [
+      {
+        "module": "Vimeo",
+        "videoId": "327010597"
+      },
+      {
+        "module": "Styleframes",
+        "moduleTitle": "Stylesframes",
+        "assets": [
+          {
+            "path": "/images/adam/adam-1.jpg"
+          }
+        ]
+      },
+      {
+        "module": "Process",
+        "assets": [{ "path": "/images/adam/adam-process-1.jpg" }]
+      }
+    ]
+  },
+  {
     "projectPath": "/project/the-journey",
     "tilePath": "/images/thejourney/the-journey-1.jpg",
     "stagePicture": "/images/thejourney/the-journey-1.jpg",
@@ -54,7 +90,7 @@
     "content": [
       {
         "module": "Styleframes",
-        "layout": "one",
+        "moduleTitle": "Stylesframes",
         "assets": [
           {
             "path": "/images/thejourney/the-journey-1.jpg"
@@ -97,7 +133,7 @@
       },
       {
         "module": "Styleframes",
-        "layout": "multiple",
+        "moduleTitle": "Stylesframes",
         "assets": [
           {
             "path": "/images/theundergroundmuseum/museum-1.jpg"
@@ -147,6 +183,63 @@
           { "path": "/images/theundergroundmuseum/museum-process-5.jpg" },
           { "path": "/images/theundergroundmuseum/museum-process-6.jpg" },
           { "path": "/images/theundergroundmuseum/museum-process-7.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "projectPath": "/project/plucky",
+    "tilePath": "/images/plucky/plucky.jpg",
+    "stagePicture": "/images/plucky/plucky-header.jpg",
+    "client": "Plucky",
+    "title": "Plucky: Internship",
+    "shortTitle": "Internship",
+    "year": "2018",
+    "workType": "Styleframes, Main on End Titles, Animation",
+    "collaborators": [],
+    "thanks": ["David Clayton", "Beth Li"],
+    "description": "During my internship, I was able to work with Creative Director, David Clayton, on numerous pitches and projects which included Main on End titles, lower thirds, Main titles, and broadcast. The styleframes I created for What Men Want was selected and executed for the Main on End titles.",
+    "content": [
+      {
+        "module": "Styleframes",
+        "moduleTitle": "Stylesframes",
+        "assets": [
+          {
+            "path": "/images/plucky/plucky-1.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-2.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-3.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-4.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-5.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-6.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-7.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-8.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-9.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-10.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-11.jpg"
+          },
+          {
+            "path": "/images/plucky/plucky-12.jpg"
+          }
         ]
       }
     ]
